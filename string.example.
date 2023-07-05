@@ -1,0 +1,11 @@
+//name and lastname writing scenes program
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	char name[20];
+	char *lastname;
+	lastname=(char *) malloc(sizeof(char)*20);
+	scanf("%s",name);
+	scanf("%s",lastname);
+	printf("nice to meet you %s %s",name,lastname);
+}
